@@ -8,6 +8,6 @@ phases:
   post_build:
     commands:
     - echo: "Deployed to S3"   
-  artifacts:
-    files:
+ artifacts:
+  files:
     - '**/*'
